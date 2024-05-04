@@ -105,7 +105,6 @@ int main()
 		if (game.getDiceBool() == true && guts.getMoving() == false && guts.getTurn() == true) {
 			animation += deltaTime;
 			game.trhowDice(animation, frame, guts);
-			std::cout << frame << std::endl;
 			Display::quad(sf::Vector2f(730.0f, 490.0f), sf::Vector2f(208.0f, 154.0f), sf::Vector2f(66.0f, 49.0f), game.getDiceNum() - 1, frame, game.window, diceTex);
 		}
 		else if (griffith.getTurn() == false) {
