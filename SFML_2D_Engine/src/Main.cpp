@@ -33,10 +33,6 @@ int main()
 	gutsWinTex.loadFromFile("assets/guts_win.png");
 	sf::Texture griffithWinTex;
 	griffithWinTex.loadFromFile("assets/griffith_win.png");
-	sf::Texture gutsWinTextTex;
-	gutsWinTextTex.loadFromFile("assets/guts_win_text.png");
-	sf::Texture griffithWinTextTex;
-	griffithWinTextTex.loadFromFile("assets/griffith_win_text.png");
 
 	sf::RectangleShape spaceRec;
 
